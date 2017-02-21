@@ -11,8 +11,6 @@
   "dependencies": {
     "@types/angular": "^1.6.6",
     "@types/angular-ui-router": "^1.1.36",
-    "light-server": "^1.1.10",
-    "simple-server": "^1.0.1",
-    "single-page-server": "^0.1.1"
+    "light-server": "^1.1.10"
   }
 }

@@ -14,7 +14,8 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true,
-        "lib": ["es6", "dom"]
+        "lib": ["es6", "dom"],
+        "sourceMap":true 
     },
     "exclude": [
         "typings/browser",
