@@ -4,7 +4,7 @@ angular.module('app', ['ui.router'])
     '$urlRouterProvider',
     '$locationProvider',
   (
-    $stateProvider: ng.ui.router,
+    $stateProvider: ng.ui.IStateProvider,
     $urlRouterProvider: ng.ui.IUrlRouterProvider,
     $locationProvider: ng.ILocationProvider
   ) => {
@@ -21,14 +21,13 @@ angular.module('app', ['ui.router'])
       })
       .state('details', {
         parent: 'main',
-        url: '/details/:name',
+        url: '/details/:firstName',
         template: '<contact-details></contact-details>'
       })
 
     $locationProvider.html5Mode({
       enabled: true,
-      requireBase: true,
-      rewriteLinks: false
+      requireBase: true
     });
 
     $urlRouterProvider.otherwise('/');
