@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/angular": "^1.6.6",
-    "@types/angular-ui-router": "^1.1.36",
-    "light-server": "^1.1.10"
+    "@types/angular-ui-router": "^1.1.36"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
   }
 }

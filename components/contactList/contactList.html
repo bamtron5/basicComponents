@@ -3,3 +3,7 @@
     <a ui-sref="details({firstName: contact.firstName})">{{contact.firstName}}</a>
   </li>
 </ul>
+
+<input type="text" ng-model="vm.selectedUser" ng-model-options="{debounce:700}">
+
+<pre>{{vm.githubResult | json:2}}</pre>
